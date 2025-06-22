@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to My Blog",
+      "content": "This is the first post in the blog.",
+      "author": "Admin"
+    },
+    {
+      "id": 2,
+      "title": "Learning JavaScript",
+      "content": "JavaScript is a versatile and powerful programming language.",
+      "author": "Jane Doe"
+    }
+  ]
+}
