@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #04d1f56e;
   margin: 0;
   padding: 20px;
 }
@@ -8,7 +8,7 @@ body {
 .container {
   max-width: 700px;
   margin: auto;
-  background: white;
+  background: rgb(4, 243, 243);
   padding: 20px;
   border-radius: 10px;
 }
@@ -24,7 +24,7 @@ ul#post-list {
 
 ul#post-list li {
   padding: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #b613d6;
   cursor: pointer;
 }
 
