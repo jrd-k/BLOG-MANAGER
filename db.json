@@ -2,15 +2,21 @@
   "posts": [
     {
       "id": 1,
-      "title": "Welcome to My Blog",
-      "content": "This is the first post in the blog.",
-      "author": "Admin"
+      "title": "Introduction to JavaScript",
+      "content": "JavaScript is a powerful language used in web development.",
+      "author": "Jane Doe"
     },
     {
       "id": 2,
-      "title": "Learning JavaScript",
-      "content": "JavaScript is a versatile and powerful programming language.",
-      "author": "Jane Doe"
+      "title": "Why React is Popular",
+      "content": "React helps build fast and interactive user interfaces with components.",
+      "author": "John Smith"
+    },
+    {
+      "id": 3,
+      "title": "Tips for Debugging Code",
+      "content": "Use console.log, breakpoints, and good naming to make debugging easier.",
+      "author": "Alex Kim"
     }
   ]
 }
