@@ -2,21 +2,21 @@
   "posts": [
     {
       "id": 1,
-      "title": "Introduction to JavaScript",
-      "content": "JavaScript is a powerful language used in web development.",
-      "author": "Jane Doe"
+      "title": "Welcome to My Blog",
+      "author": "Admin",
+      "content": "This is the first post on the blog. Stay tuned for updates!"
     },
     {
       "id": 2,
-      "title": "Why React is Popular",
-      "content": "React helps build fast and interactive user interfaces with components.",
-      "author": "John Smith"
+      "title": "Learning JavaScript",
+      "author": "Jane Doe",
+      "content": "JavaScript is a versatile language for web development."
     },
     {
       "id": 3,
-      "title": "Tips for Debugging Code",
-      "content": "Use console.log, breakpoints, and good naming to make debugging easier.",
-      "author": "Alex Kim"
+      "title": "React vs Vue",
+      "author": "John Smith",
+      "content": "Both are great frontend frameworks, but React is more popular."
     }
   ]
 }
