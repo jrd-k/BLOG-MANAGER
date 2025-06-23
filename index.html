@@ -4,37 +4,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blog Manager</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <div class="main-container">
+  <div class="container">
     <aside class="sidebar">
-      <h2> Blog Posts</h2>
+      <h2>All Posts</h2>
       <ul id="post-list"></ul>
     </aside>
 
-    <main class="content">
-      <section id="post-detail" class="post-detail">
-        <h3>Select a post to view details</h3>
-      </section>
+    <main class="main-content">
+      <div id="post-detail">
+        <h2>Post Details</h2>
+        <p>Select a post to see details.</p>
+      </div>
 
-      <section class="form-section">
-        <form id="new-post-form">
-          <h3>Add New Post</h3>
-          <input type="text" name="title" placeholder="Title" required />
-          <textarea name="content" placeholder="Content" required></textarea>
-          <input type="text" name="author" placeholder="Author" required />
-          <button type="submit">Add Post</button>
-        </form>
+      <form id="new-post-form">
+        <h3>New Post</h3>
+        <input type="text" name="title" placeholder="Title" required />
+        <input type="text" name="author" placeholder="Author" required />
+        <textarea name="content" placeholder="Content..." required></textarea>
+        <button type="submit">Add Post</button>
+      </form>
 
-        <form id="edit-post-form" class="hidden">
-          <h4>Edit Post</h4>
-          <input type="text" id="edit-title" name="title" />
-          <textarea id="edit-content" name="content"></textarea>
-          <button type="submit">Update</button>
-          <button type="button" id="cancel-edit">Cancel</button>
-        </form>
-      </section>
+      <form id="edit-post-form" class="hidden">
+        <h4>Edit Post</h4>
+        <input type="text" name="title" id="edit-title" required />
+        <textarea name="content" id="edit-content" required></textarea>
+        <button type="submit">Update</button>
+        <button type="button" id="cancel-edit">Cancel</button>
+      </form>
     </main>
   </div>
 
