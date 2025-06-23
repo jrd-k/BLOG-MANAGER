@@ -1,87 +1,72 @@
 body {
+  font-family: sans-serif;
   margin: 0;
-  background-color: #1e1e1e;
-  color: #f4f4f4;
+  background: #f4f4f4;
 }
 
-.main-container {
+.container {
   display: flex;
   height: 100vh;
 }
 
 .sidebar {
-  width: 30%;
-  background-color: #252526;
-  padding: 20px;
+  width: 250px;
+  background: #222;
+  color: white;
+  padding: 1rem;
   overflow-y: auto;
-  border-right: 1px solid #444;
 }
 
 .sidebar h2 {
-  color: #61dafb;
+  font-size: 1.5rem;
 }
 
-#post-list {
+.sidebar ul {
   list-style: none;
   padding: 0;
-  margin-top: 1rem;
 }
 
-#post-list li {
+.sidebar li {
   padding: 10px;
-  border-bottom: 1px solid #444;
   cursor: pointer;
-  color: white;
+  border-bottom: 1px solid #444;
 }
 
-#post-list li:hover {
-  background-color: #333;
+.sidebar li:hover {
+  background: #444;
 }
 
-.content {
-  flex-grow: 1;
-  padding: 20px;
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background: #fff;
   overflow-y: auto;
+}
+
+form {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 10px;
 }
 
-.post-detail {
-  flex-grow: 1;
-  background-color: #2d2d2d;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-.form-section form {
-  background-color: #2d2d2d;
-  padding: 15px;
-  border-radius: 8px;
-  margin-bottom: 10px;
-}
-
-input, textarea, button {
-  display: block;
-  width: 100%;
-  margin-top: 10px;
+form input, form textarea {
   padding: 8px;
-  background-color: #1e1e1e;
-  border: 1px solid #444;
-  color: white;
+  border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-button {
-  background-color: #61dafb;
-  color: #000;
-  font-weight: bold;
+form button {
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: #21a1f1;
+form button:hover {
+  background: #0056b3;
 }
 
 .hidden {
